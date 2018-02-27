@@ -1,0 +1,215 @@
+{
+  "allowPreview": true,
+  "assetSharingUrl": "https://ap5.salesforce.com/analytics/wave/dashboard?assetId=0FK7F0000006KRJWA2&orgId=00D7F0000049GUW&loginHost=ap5.salesforce.com&urlType=sharing",
+  "createdBy": {
+    "id": "0057F000002SKfGQAW",
+    "name": "g p",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "createdDate": "2018-01-04T11:15:23.000Z",
+  "datasets": [],
+  "files": [
+    {
+      "contentType": "image/png",
+      "fileLength": 9854,
+      "fileName": "assetPreviewThumb",
+      "id": "0FJ7F0000008VkCWAU",
+      "lastModifiedDate": "2018-02-16T07:06:21.000Z",
+      "url": "/services/data/v41.0/wave/lenses/0FK7F0000006KRJWA2/files/0FJ7F0000008VkCWAU"
+    }
+  ],
+  "folder": {
+    "id": "${App.Folder.Id}"
+  },
+  "id": "0FK7F0000006KRJWA2",
+  "label": "Introduction_to_SOQL",
+  "lastAccessedDate": "2018-02-27T05:22:59.000Z",
+  "lastModifiedBy": {
+    "id": "0057F000002SKfGQAW",
+    "name": "g p",
+    "profilePhotoUrl": "https://c.ap5.content.force.com/profilephoto/005/T"
+  },
+  "lastModifiedDate": "2018-02-16T07:05:29.000Z",
+  "mobileDisabled": false,
+  "name": "Introduction_to_SOQL",
+  "permissions": {
+    "manage": true,
+    "modify": true,
+    "view": true
+  },
+  "state": {
+    "dataSourceLinks": [],
+    "filters": [],
+    "gridLayouts": [
+      {
+        "name": "Default",
+        "numColumns": 12,
+        "pages": [
+          {
+            "label": "Untitled",
+            "name": "9485864b-920a-45d1-b2b3-900b243650b0",
+            "widgets": [
+              {
+                "colspan": 8,
+                "column": 0,
+                "name": "text_1",
+                "row": 2,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "backgroundColor": "#E2DCF2",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "text_2",
+                "row": 6,
+                "rowspan": 7,
+                "widgetStyle": {
+                  "backgroundColor": "#77B0AD",
+                  "borderColor": "#E6ECF2",
+                  "borderEdges": [],
+                  "borderRadius": 0,
+                  "borderWidth": 1
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "container_3",
+                "row": 0,
+                "rowspan": 2,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 3,
+                "column": 9,
+                "name": "link_1",
+                "row": 0,
+                "rowspan": 1,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 4,
+                "column": 8,
+                "name": "image_1",
+                "row": 2,
+                "rowspan": 4,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              },
+              {
+                "colspan": 12,
+                "column": 0,
+                "name": "container_1",
+                "row": 13,
+                "rowspan": 6,
+                "widgetStyle": {
+                  "borderEdges": []
+                }
+              }
+            ]
+          }
+        ],
+        "rowHeight": "normal",
+        "selectors": [],
+        "style": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "backgroundColor": "#F2F6FA",
+          "cellSpacingX": 8,
+          "cellSpacingY": 8,
+          "fit": "original",
+          "gutterColor": "#C5D3E0"
+        },
+        "version": 1
+      }
+    ],
+    "layouts": [],
+    "steps": {},
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E6ECF2",
+      "borderEdges": [],
+      "borderRadius": 0,
+      "borderWidth": 1
+    },
+    "widgets": {
+      "container_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "stretch",
+          "image": {
+            "name": "backgroundjpg",
+            "namespace": ""
+          }
+        },
+        "type": "container"
+      },
+      "container_3": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "original"
+        },
+        "type": "container"
+      },
+      "text_1": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "Introduction to SOQL",
+          "textAlignment": "center",
+          "textColor": "#2EC2BA"
+        },
+        "type": "text"
+      },
+      "image_1": {
+        "parameters": {
+          "alignmentX": "left",
+          "alignmentY": "top",
+          "fit": "stretch",
+          "image": {
+            "name": "soqljpg1",
+            "namespace": ""
+          }
+        },
+        "type": "image"
+      },
+      "text_2": {
+        "parameters": {
+          "fontSize": 20,
+          "text": "You will be introduced to SOQL in this chapter. This chapter will also discuss the API names of standard objects, custom objects, standard fields, and custom fields. These API names are used while querying using SOQL statements. This chapter explains when and where we use SOQL statements in Salesforce.\n\nSOQL syntax will give us more information, such as reserved keywords in SOQL, how to write SOQL statements, and so on. We will get started by writing our first SOQL statement in this chapter.",
+          "textAlignment": "left",
+          "textColor": "#091A3E"
+        },
+        "type": "text"
+      },
+      "link_1": {
+        "parameters": {
+          "destinationLink": {
+            "name": "Basic_SOQL_Statements"
+          },
+          "destinationType": "dashboard",
+          "fontSize": 12,
+          "includeState": true,
+          "text": "Basic SOQL Statements",
+          "textAlignment": "center",
+          "textColor": "#44A2F5"
+        },
+        "type": "link"
+      }
+    }
+  },
+  "type": "dashboard",
+  "url": "/services/data/v41.0/wave/dashboards/0FK7F0000006KRJWA2"
+}
